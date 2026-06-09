@@ -1,0 +1,124 @@
+{
+  "brand": {
+    "name": "Villa Oasis",
+    "tagline": "Private villas, curated stays, effortless bookings.",
+    "logo": "/images/villa-logo.png",
+    "email": "info@villaoasis.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Luxury Avenue, Paradise Island"
+  },
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "Villas", "href": "#villas" },
+    { "label": "Destinations", "href": "#destinations" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "eyebrow": "Luxury villa booking",
+    "title": "Villa Oasis",
+    "subtitle": "Find beach houses, hillside retreats, and private estates with service arranged before you arrive.",
+    "primaryAction": "Explore Villas",
+    "secondaryAction": "Plan My Stay",
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=80",
+    "metrics": [
+      { "value": "48+", "label": "curated villas" },
+      { "value": "12", "label": "destinations" },
+      { "value": "4.9", "label": "guest rating" }
+    ]
+  },
+  "search": {
+    "destinations": ["Bali", "Maldives", "Santorini", "Phuket", "Dubai"],
+    "guestOptions": ["2 Guests", "4 Guests", "6 Guests", "8+ Guests"],
+    "budgetOptions": ["Any Budget", "$500 - $900", "$900 - $1,500", "$1,500+"]
+  },
+  "villas": [
+    {
+      "id": 1,
+      "name": "Azure Cliff Residence",
+      "location": "Santorini, Greece",
+      "pricePerNight": 1250,
+      "currency": "$",
+      "rating": 4.9,
+      "guests": 8,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "features": ["Infinity pool", "Sea view", "Private chef"]
+    },
+    {
+      "id": 2,
+      "name": "Palm Haven Estate",
+      "location": "Canggu, Bali",
+      "pricePerNight": 780,
+      "currency": "$",
+      "rating": 4.8,
+      "guests": 6,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
+      "features": ["Garden pool", "Outdoor lounge", "Daily breakfast"]
+    },
+    {
+      "id": 3,
+      "name": "Coral Bay Villa",
+      "location": "North Male Atoll, Maldives",
+      "pricePerNight": 1650,
+      "currency": "$",
+      "rating": 5,
+      "guests": 10,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80",
+      "features": ["Beach access", "Cinema room", "Spa deck"]
+    }
+  ],
+  "destinations": [
+    {
+      "name": "Bali",
+      "count": "14 villas",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "name": "Santorini",
+      "count": "9 villas",
+      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "name": "Maldives",
+      "count": "7 villas",
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=900&q=80"
+    }
+  ],
+  "services": [
+    {
+      "title": "Concierge Planning",
+      "description": "Airport transfers, reservations, celebrations, and local experiences arranged before check-in."
+    },
+    {
+      "title": "Private Dining",
+      "description": "Chef-led menus, daily breakfast, and special dinner setups matched to every villa."
+    },
+    {
+      "title": "Villa Management",
+      "description": "Owner support for listings, guest care, maintenance, and revenue growth."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "The team matched us with a villa that felt private, polished, and exactly right for our family.",
+      "name": "Maya R.",
+      "stay": "Bali family retreat"
+    },
+    {
+      "quote": "Everything from the airport pickup to the chef dinner was handled before we landed.",
+      "name": "Daniel K.",
+      "stay": "Santorini anniversary stay"
+    }
+  ],
+  "footerLinks": [
+    { "label": "Privacy Policy", "href": "#" },
+    { "label": "Terms of Service", "href": "#" },
+    { "label": "Cookie Policy", "href": "#" }
+  ]
+}
